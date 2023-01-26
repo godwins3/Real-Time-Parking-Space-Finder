@@ -1,0 +1,33 @@
+python main.py --image images/parking_lot_1.png --data data/coordinates_1.yml --video videos/parking_lot_1.mp4 --start-frame 400
+
+
+
+logging.basicConfig(filename="newfile.log", 
+                    format='%(asctime)s %(message)s', 
+                    filemode='w')  
+#Creating an object 
+logger=logging.getLogger() 
+  
+#Setting the threshold of logger to DEBUG 
+logger.setLevel(logging.DEBUG) 
+
+
+ points = yaml.load(data)
+
+
+<?php
+         $dbhost = 'sql112.epizy.com';
+         $dbuser = 'epiz_27624463';
+         $dbpass = '6Wz8oFT9jckg8b';
+         $conn = mysql_connect($dbhost, $dbuser, $dbpass);
+         
+         if(! $conn ) {
+            die('Could not connect: ' . mysql_error());
+         }
+         echo 'Connected successfully';
+         mysql_close($conn);
+      ?>
+
+
+
+[{'id': 0, 'coordinates': [[280, 445], [332, 440], [331, 462], [295, 466]]}, {'id': 1, 'coordinates': [[376, 332], [412, 329], [437, 353], [403, 361]]}, {'id': 2, 'coordinates': [[330, 286], [365, 281], [375, 300], [342, 302]]}]

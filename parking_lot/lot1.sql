@@ -1,0 +1,7 @@
+db=epiz_27624463_parkinglots
+
+CREATE TABLE `parkinglots`.`lot1` 
+	( `ID` INT(4) NOT NULL , `STATUS` INT(1) NOT NULL DEFAULT '0' , `LAT` DECIMAL NULL , `LON` DECIMAL NULL , PRIMARY KEY (`ID`(4))) ENGINE = MyISAM;
+
+CREATE TABLE `parkinglots`.`users` 
+	( `ID` INT(5) NOT NULL , `Name` VARCHAR(20) NOT NULL , `Email` VARCHAR(30) NOT NULL , `password` VARCHAR(12) NOT NULL ) ENGINE = MyISAM;
