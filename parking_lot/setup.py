@@ -5,7 +5,7 @@ except ImportError:
 
 config = {
     "description": "Parking Space Detector using OpenCV and RPI",
-    "author": "Project Team DSA",
+    "author": "Praise Godwins",
     "url": "t",
     "download_url": "",
     "version": "0.1",
